@@ -114,7 +114,7 @@ The Power BI dashboard provides a consolidated view of:
 ### 1. Top 10 Keywords by Search Volume
 The most searched keywords are heavily centered around *digital and online banking services*, indicating strong consumer demand for digital banking solutions.
 
-![Top 10 keywords](https://github.com/)  
+![Top 10 keywords](https://github.com/AnimashaunRoheemot/SEO-Visibility-Analysis-Of-Nigeria-Banks-/blob/main/Screenshot%20(338).png)  
 
 ---
 
@@ -123,7 +123,7 @@ The most searched keywords are heavily centered around *digital and online banki
 - *Ecobank* and *Access Bank* closely follow.
 - Smaller banks show significantly lower keyword coverage.
 
-![Number of Keywords Each Bank Ranks For](https://github.com/)
+![Number of Keywords Each Bank Ranks For](https://github.com/AnimashaunRoheemot/SEO-Visibility-Analysis-Of-Nigeria-Banks-/blob/main/Screenshot%20(341).png)
 
 ---
 
@@ -131,8 +131,8 @@ The most searched keywords are heavily centered around *digital and online banki
 SEO visibility is highly concentrated among a few dominant banks.
 - *Zenith Bank* leads in overall visibility share.
 - Banks with lower keyword reach show reduced digital presence.
-- 
-![Keyword Visibility Share (%) per Bank](https://github.com/) 
+  
+![Keyword Visibility Share (%) per Bank](https://github.com/AnimashaunRoheemot/SEO-Visibility-Analysis-Of-Nigeria-Banks-/blob/main/Screenshot%20(339).png) 
 
 ---
 
@@ -140,7 +140,7 @@ SEO visibility is highly concentrated among a few dominant banks.
 The correlation analysis suggests a *positive relationship* between SEO visibility and bank revenue.  
 Banks with stronger search presence tend to report higher revenue figures.
 
- ![SEO Visibility vs Revenue Correlation](https://github.com/) 
+ ![SEO Visibility vs Revenue Correlation](https://github.com/AnimashaunRoheemot/SEO-Visibility-Analysis-Of-Nigeria-Banks-/blob/main/Screenshot%20(340).png) 
 
 ---
 
