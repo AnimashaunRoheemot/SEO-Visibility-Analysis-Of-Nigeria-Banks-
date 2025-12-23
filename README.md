@@ -12,7 +12,7 @@
    - Number of Keywords Each Bank Ranks For  
    - Keyword Visibility Share (%) per Bank  
    - SEO Visibility vs Revenue Correlation  
-8. [Key Takeaways](#key-takeaways)  
+8. [Key Takeaways](#key-takeaways)
 9. [Recommendations](#recommendations)  
 10. [Limitations](#limitations)  
 11. [Future Enhancements](#future-enhancements)  
@@ -104,6 +104,8 @@ The Power BI dashboard provides a consolidated view of:
 - Keyword ranking coverage by bank
 - SEO visibility dominance
 - Relationship between SEO visibility and revenue
+  
+   ![Dashboard](https://github.com/) 
 
 ---
 
@@ -112,8 +114,7 @@ The Power BI dashboard provides a consolidated view of:
 ### 1. Top 10 Keywords by Search Volume
 The most searched keywords are heavily centered around *digital and online banking services*, indicating strong consumer demand for digital banking solutions.
 
-📌 *Visual Placeholder:*  
-[Insert Power BI visual: Top 10 Keywords by Search Volume]
+![Top 10 keywords](https://github.com/)  
 
 ---
 
@@ -122,8 +123,7 @@ The most searched keywords are heavily centered around *digital and online banki
 - *Ecobank* and *Access Bank* closely follow.
 - Smaller banks show significantly lower keyword coverage.
 
-📌 *Visual Placeholder:*  
-[Insert Power BI visual: Number of Keywords per Bank]
+![Number of Keywords Each Bank Ranks For](https://github.com/)
 
 ---
 
@@ -131,9 +131,8 @@ The most searched keywords are heavily centered around *digital and online banki
 SEO visibility is highly concentrated among a few dominant banks.
 - *Zenith Bank* leads in overall visibility share.
 - Banks with lower keyword reach show reduced digital presence.
-
-📌 *Visual Placeholder:*  
-[Insert Power BI visual: Keyword Visibility Share per Bank]
+- 
+![Keyword Visibility Share (%) per Bank](https://github.com/) 
 
 ---
 
@@ -141,8 +140,7 @@ SEO visibility is highly concentrated among a few dominant banks.
 The correlation analysis suggests a *positive relationship* between SEO visibility and bank revenue.  
 Banks with stronger search presence tend to report higher revenue figures.
 
-📌 *Visual Placeholder:*  
-[Insert Power BI visual: SEO Visibility vs Revenue Scatter Plot]
+ ![SEO Visibility vs Revenue Correlation](https://github.com/) 
 
 ---
 
