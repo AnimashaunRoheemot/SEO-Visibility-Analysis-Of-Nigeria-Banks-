@@ -1,28 +1,52 @@
-# SEO Visibility and Performance Analysis of Nigerian Banks
+#  SEO Visibility Analysis of Nigerian Banks
+
+## Table of Contents
+1. [Overview](#overview)  
+2. [Business Objective](#business-objective)  
+3. [Data Source and Structure](#data-source-and-structure)  
+4. [Tools and Technologies](#tools-and-technologies)  
+5. [Methodology](#methodology)  
+6. [Dashboard Overview](#dashboard-overview)  
+7. [Key Insights and Visual Analysis](#key-insights-and-visual-analysis)  
+   - Top 10 Keywords by Search Volume  
+   - Number of Keywords Each Bank Ranks For  
+   - Keyword Visibility Share (%) per Bank  
+   - SEO Visibility vs Revenue Correlation  
+8. [Key Takeaways](#key-takeaways)  
+9. [Recommendations](#recommendations)  
+10. [Limitations](#limitations)  
+11. [Future Enhancements](#future-enhancements)  
+12. [Project Links](#project-links)  
+13. [About the Author](#about-the-author)  
+
+---
 
 ## Overview
-This project analyzes the *SEO visibility and keyword performance* of major Nigerian banks within the consumer banking space.  
-It demonstrates my ability to *collect raw data, clean and transform it using Python, and communicate insights through interactive Power BI dashboards*.
+This project presents an end-to-end *SEO visibility and keyword performance analysis* of selected Nigerian banks within the consumer banking sector.  
+It showcases practical experience in *data collection, Python-based data cleaning, metric creation, and interactive dashboard development using Power BI*.
 
-The analysis answers key business questions such as:
-- Which banks dominate search engine visibility?
-- How widely do banks rank across consumer banking keywords?
-- Does SEO visibility show any relationship with bank revenue?
+The analysis focuses on uncovering:
+- Which banks dominate search engine visibility
+- How keyword coverage varies across banks
+- Whether SEO visibility correlates with bank revenue
 
 ---
 
 ## Business Objective
-To evaluate how Nigerian consumer banks perform in *search engine visibility* and determine whether strong SEO presence correlates with *financial performance*.
+The objective of this project is to evaluate the *SEO performance of Nigerian consumer banks, identify visibility leaders, and assess the relationship between **search visibility and financial performance*.
 
-This analysis is positioned from a *marketing and business intelligence perspective*, focusing on visibility dominance rather than keyword counts alone.
+This analysis is positioned from a *marketing and business intelligence perspective*, emphasizing actionable insights rather than raw keyword counts.
 
 ---
 
-## Data Source & Structure
-The dataset was self-generated using *WordStream Free Keyword Tool*.
+## Data Source and Structure
 
-### Original Columns
-Each bank’s keyword dataset initially contained:
+### Data Collection
+Keyword data was generated using *WordStream Free Keyword Tool*.  
+For each of the 10 selected banks, consumer banking-related keywords were researched and exported as individual CSV files.
+
+### Original Dataset Columns
+Each bank’s dataset initially contained the following fields:
 - Keyword Text  
 - Competition  
 - Competition Index  
@@ -30,8 +54,13 @@ Each bank’s keyword dataset initially contained:
 - Low Top of Page Bid  
 - High Top of Page Bid  
 
-### Final Analytical Dataset
-After cleaning and transformation, the dataset used for analysis contained:
+### Data Reduction and Final Structure
+To ensure analytical relevance:
+- Bid-related and index columns were dropped.
+- Bank names were standardized.
+- Keywords were cleaned and merged into a unified dataset.
+
+The final analytical dataset contains:
 - Bank  
 - Keyword  
 - Search Volume  
@@ -39,102 +68,111 @@ After cleaning and transformation, the dataset used for analysis contained:
 - SEO Visibility Score  
 - Bank Revenue  
 
-Unnecessary bid-related and index columns were removed to maintain analytical focus.
-
 ---
 
-## Tools & Technologies
+## Tools and Technologies
 - *Python (Jupyter Notebook)* – Data cleaning, transformation, and merging  
-- *Pandas* – Data manipulation  
-- *Power BI* – Data modeling and interactive visualization  
+- *Pandas* – Data manipulation and aggregation  
+- *Power BI* – Interactive dashboard and data visualization  
 - *WordStream* – Keyword research  
-- *CSV / Excel* – Data storage and exchange  
+- *CSV / Excel* – Data storage and integration  
 
 ---
 
 ## Methodology
 
-### Data Collection
-- Researched consumer banking keywords for *10 Nigerian banks*.
-- Downloaded keyword datasets for each bank individually.
-
-### Data Cleaning & Preparation
-- Merged all datasets into a single table using Python.
-- Standardized keyword and bank name formats.
-- Removed irrelevant columns and handled inconsistencies.
+### Data Preparation
+- Combined 10 individual bank keyword datasets into one consolidated table.
+- Removed irrelevant columns to reduce noise.
+- Standardized text fields for consistency.
 
 ### SEO Visibility Metric
-To quantify online dominance, an *SEO Visibility Score* was created using:
+A custom *SEO Visibility Score* was designed to quantify digital presence:
 
-> *SEO Visibility Score = Total Keywords per Bank × Total Search Volume per Bank*
+> *SEO Visibility Score = Total Keyword Count per Bank × Total Search Volume per Bank*
 
-This metric reflects both keyword breadth and search demand.
+This metric reflects both *keyword coverage* and *search demand*.
 
-### Revenue Analysis
-Publicly available bank revenue figures were added to examine correlation with SEO visibility.
+### Revenue Integration
+Publicly available bank revenue figures were added to assess correlation with SEO visibility.
 
 ---
 
-## Dashboard & Key Insights
+## Dashboard Overview
+The Power BI dashboard provides a consolidated view of:
+- High-demand consumer banking keywords
+- Keyword ranking coverage by bank
+- SEO visibility dominance
+- Relationship between SEO visibility and revenue
+
+---
+
+## Key Insights and Visual Analysis
 
 ### 1. Top 10 Keywords by Search Volume
-High-volume keywords are heavily centered on *digital and online banking*, indicating strong customer demand for digital access.
+The most searched keywords are heavily centered around *digital and online banking services*, indicating strong consumer demand for digital banking solutions.
 
-(Insert visual)
+📌 *Visual Placeholder:*  
+[Insert Power BI visual: Top 10 Keywords by Search Volume]
 
 ---
 
 ### 2. Number of Keywords Each Bank Ranks For
 - *Zenith Bank* ranks for the highest number of keywords.
-- *Ecobank* and *Access Bank* show strong competitive presence.
-- Smaller banks display limited keyword reach.
+- *Ecobank* and *Access Bank* closely follow.
+- Smaller banks show significantly lower keyword coverage.
 
-(Insert visual)
+📌 *Visual Placeholder:*  
+[Insert Power BI visual: Number of Keywords per Bank]
 
 ---
 
 ### 3. Keyword Visibility Share (%) per Bank
+SEO visibility is highly concentrated among a few dominant banks.
 - *Zenith Bank* leads in overall visibility share.
-- A small group of banks dominate search visibility, highlighting competitive imbalance.
+- Banks with lower keyword reach show reduced digital presence.
 
-(Insert visual)
+📌 *Visual Placeholder:*  
+[Insert Power BI visual: Keyword Visibility Share per Bank]
 
 ---
 
 ### 4. SEO Visibility vs Revenue Correlation
-The correlation plot shows a *positive relationship* between SEO visibility and bank revenue, suggesting that strong online presence may support business growth.
+The correlation analysis suggests a *positive relationship* between SEO visibility and bank revenue.  
+Banks with stronger search presence tend to report higher revenue figures.
 
-(Insert visual)
+📌 *Visual Placeholder:*  
+[Insert Power BI visual: SEO Visibility vs Revenue Scatter Plot]
 
 ---
 
 ## Key Takeaways
-- SEO visibility in Nigerian banking is highly concentrated among a few top banks.
-- Keyword coverage and visibility share provide better insight than keyword count alone.
-- Banks with stronger SEO visibility tend to report higher revenue.
+- SEO visibility within Nigerian consumer banking is dominated by a few major players.
+- Keyword visibility share provides deeper insight than keyword count alone.
+- Strong SEO performance appears to align with higher revenue levels.
 
 ---
 
 ## Recommendations
-- Banks with low visibility should prioritize SEO-driven content strategies.
-- Focus on high-intent digital banking keywords.
-- Improve on-page SEO, mobile optimization, and content relevance.
+- Invest in SEO-driven content focused on high-intent banking keywords.
+- Optimize digital platforms for mobile and search performance.
 - Monitor SEO performance continuously using BI dashboards.
+- Smaller banks should target niche keywords to improve visibility.
 
 ---
 
 ## Limitations
 - Keyword data was sourced from free SEO tools.
-- Revenue figures are estimated from public sources.
-- SEO visibility score is a derived metric and does not include backlink authority or ranking positions.
+- Revenue figures are based on publicly available information.
+- The SEO visibility score is a derived metric and excludes backlink authority.
 
 ---
 
 ## Future Enhancements
-- Include keyword ranking positions and SERP features.
-- Integrate paid SEO tools (e.g., SEMrush, Ahrefs).
-- Track keyword performance over time.
-- Expand analysis to content and backlink metrics.
+- Include keyword ranking positions.
+- Integrate paid SEO tool data.
+- Perform time-series SEO trend analysis.
+- Expand to content and backlink performance metrics.
 
 ---
 
