@@ -105,7 +105,7 @@ The Power BI dashboard provides a consolidated view of:
 - SEO visibility dominance
 - Relationship between SEO visibility and revenue
   
-   ![Dashboard](https://github.com/) 
+   ![Dashboard](https://github.com/AnimashaunRoheemot/SEO-Visibility-Analysis-Of-Nigeria-Banks-/blob/main/Screenshot%20(342).png) 
 
 ---
 
